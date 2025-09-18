@@ -1,12 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sangmin Lee | Portfolio</title>
+
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-P4ZP7FPW');
+  </script>
+  <!-- End Google Tag Manager -->
+
+  <style>
+    :root{
+      --bg:#0f1115; --card:#151923; --text:#e8ecf1; --muted:#aab3c0; --accent:#77b6ff; --line:#222736;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+      background: radial-gradient(1200px 800px at 10% -10%, #182033 0%, #0f1115 55%) no-repeat fixed;
+      color:var(--text);
+    }
+    a{color:var(--accent); text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:980px; margin:0 auto; padding:28px 20px 80px}
+    header{
+      padding:28px 0 8px; border-bottom:1px solid var(--line); margin-bottom:18px;
+    }
+    .tag{display:inline-block; padding:6px 10px; border:1px solid var(--line); border-radius:999px; color:var(--muted); font-size:12px; letter-spacing:.3px}
+    .hero{display:flex; gap:24px; align-items:center; flex-wrap:wrap; padding:18px 0 6px}
+    .hero h1{font-size:28px; margin:0}
+    .hero p{margin:6px 0 0; color:var(--muted)}
+    .links{display:flex; gap:14px; flex-wrap:wrap; margin-top:10px}
+    .pill{
+      display:inline-flex; align-items:center; gap:8px; padding:8px 12px; border:1px solid var(--line);
+      border-radius:10px; background:rgba(255,255,255,.02); font-size:14px;
+    }
+    section{margin-top:28px}
+    h2{font-size:18px; margin:0 0 14px; color:#dbe7ff}
+    .grid{display:grid; gap:14px}
+    @media(min-width:760px){ .grid{grid-template-columns:repeat(2,1fr)} }
+    .card{
+      background:linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+      border:1px solid var(--line); border-radius:14px; padding:16px; box-shadow: 0 6px 18px rgba(0,0,0,.22);
+    }
+    .card h3{margin:0 0 6px; font-size:16px}
+    .meta{color:var(--muted); font-size:13px; margin-bottom:10px}
+    .card ul{margin:10px 0 0 18px; padding:0}
+    .card li{margin:6px 0}
+    .cta{
+      display:inline-flex; gap:8px; align-items:center; margin-top:12px; padding:8px 10px; border-radius:8px;
+      background:#1a2233; border:1px solid #243050; font-size:14px;
+    }
+    .stack{display:flex; gap:8px; flex-wrap:wrap; margin-top:10px}
+    .chip{font-size:12px; padding:4px 8px; border:1px solid var(--line); border-radius:999px; color:var(--muted)}
+    footer{margin-top:32px; border-top:1px solid var(--line); padding-top:16px; color:var(--muted); font-size:13px}
+    /* small helper for dividers */
+    .divider{height:1px; background:var(--line); margin:18px 0}
+  </style>
 </head>
 <body>
-  <p>Hello, World!</p>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P4ZP7FPW" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <div class="wrap">
+    <header>
+      <span class="tag">Business Strategy • GTM • CRM Ops</span>
+      <div class="hero">
+        <div>
+          <h1>Sangmin Lee</h1>
+          <p>Business Administration @ Sogang University (’27) • Strategy & Ops • Digital/CRM • Case Competition Awards</p>
+          <div class="links">
+            <a class="pill track" data-gtm="link_click" data-label="email" href="mailto:leesangmin9701@gmail.com">✉️ Email</a>
+            <a class="pill track" data-gtm="link_click" data-label="linkedin" href="https://www.linkedin.com/in/leesangmin9701" target="_blank" rel="noreferrer">🔗 LinkedIn</a>
+            <a class="pill track" data-gtm="link_click" data-label="github" href="https://github.com/Michael-S-M-Lee" target="_blank" rel="noreferrer">💻 GitHub</a>
+            <span class="pill">📍 Seoul, Republic of Korea</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        Administrative Intern at Sogang University Advancement & PR Office (Mar 2024–Jun 2025).  
+        I bridge <strong>field operations</strong> (events, logistics), <strong>CRM hygiene</strong> (SAP/Excel), and <strong>digital comms</strong> (notices, content QA).  
+        Vice President & Project Manager at <strong>LENS</strong> strategy society—led corporate-academic projects in FMCG, Energy, and Media.
+      </p>
+      <div class="stack">
+        <span class="chip">Excel (Pivot, VLOOKUP)</span>
+        <span class="chip">PowerPoint</span>
+        <span class="chip">SEO / Social</span>
+        <span class="chip">CRM (SAP – basic)</span>
+        <span class="chip">Research & Synthesis</span>
+        <span class="chip">Korean / English</span>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Selected Projects</h2>
+      <div class="grid">
+
+        <!-- Amorepacific -->
+        <article class="card">
+          <h3>Amorepacific – Primera US Market Entry</h3>
+          <div class="meta">Project Manager (Team Lead) • May 2024 – Jun 2025 • LENS</div>
+          <ul>
+            <li>Designed Amazon promotions (SEO, discount codes, influencer A/B tests) + TikTok viral campaigns.</li>
+            <li>Positioned <em>Vitatinol Serum</em> as hero SKU with Prime Day–centered GTM; <strong>1st Place (₩2M)</strong>.</li>
+          </ul>
+          <a class="cta track" data-gtm="pdf_open" data-label="amorepacific_summary"
+             href="portfolio/Amorepacific_Summary.pdf" target="_blank" rel="noreferrer">📑 Open Summary PDF</a>
+        </article>
+
+        <!-- GS Power -->
+        <article class="card">
+          <h3>GS Power – V2G (Vehicle-to-Grid) Business Model</h3>
+          <div class="meta">Project Manager (Team Lead) • Mar 2025 – Apr 2025 • LENS</div>
+          <ul>
+            <li>Proposed EV bidirectional charging model to reduce LNG dependency; hub analysis (Incheon Airport, Anyang).</li>
+            <li>Built revenue model (~₩7.2B/yr projection); <strong>Top 3</strong> in competition.</li>
+          </ul>
+          <a class="cta track" data-gtm="pdf_open" data-label="gspower_summary"
+             href="portfolio/GSPower_V2G_Summary.pdf" target="_blank" rel="noreferrer">📑 Open Summary PDF</a>
+        </article>
+
+        <!-- Kidari Studio -->
+        <article class="card">
+          <h3>Kidari Studio – Webtoon Platform Sustainability</h3>
+          <div class="meta">Strategy • Jan 2024 – Feb 2025 • LENS</div>
+          <ul>
+            <li>Diagnosed market stagnation + Bomtoon–Lezhin cannibalization; teen-focused genre diversification.</li>
+            <li>Repositioned Lezhin toward male-oriented segments; <strong>2nd Place (₩1M)</strong>.</li>
+          </ul>
+          <a class="cta track" data-gtm="pdf_open" data-label="kidari_summary"
+             href="portfolio/Kidari_Webtoon_Summary.pdf" target="_blank" rel="noreferrer">📑 Open Summary PDF</a>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <article class="card">
+        <h3>Sogang University – Advancement & PR Office</h3>
+        <div class="meta">Administrative Intern • Mar 2024 – Jun 2025 • Seoul, KR</div>
+        <ul>
+          <li>Maintained 5,000+ donor CRM records (returns, opt-outs, address updates) in SAP/Excel; standardized processes.</li>
+          <li>Coordinated 10+ events (Homecoming, Inauguration, Campus Tours): parking, setup, gifts, reminders, attendee updates.</li>
+          <li>Drafted/formatted 50+ official notices, improving consistency and readability across channels.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h3>LENS – Business Strategy Society</h3>
+        <div class="meta">Vice President & Project Manager • Sep 2024 – Aug 2025 • ~20 members</div>
+        <ul>
+          <li>Led multi-company case consulting (Amorepacific, GS Power, Kidari Studio); owned client comms & deliverables.</li>
+          <li>Mentored junior members on research synthesis, storyline building, and executive-style presentations.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Open to roles in Strategy/Ops, Growth, and CRM/Data in KR & global.</p>
+      <div class="links">
+        <a class="pill track" data-gtm="link_click" data-label="email_footer" href="mailto:leesangmin9701@gmail.com">✉️ leesangmin9701@gmail.com</a>
+        <a class="pill track" data-gtm="link_click" data-label="linkedin_footer" href="https://www.linkedin.com/in/leesangmin9701" target="_blank" rel="noreferrer">🔗 LinkedIn</a>
+        <a class="pill track" data-gtm="link_click" data-label="github_footer" href="https://github.com/Michael-S-M-Lee" target="_blank" rel="noreferrer">💻 GitHub</a>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="y"></span> Sangmin Lee • Built for GitHub Pages • GTM enabled
+    </footer>
+  </div>
+
+  <script>
+    // year
+    document.getElementById('y').textContent = new Date().getFullYear();
+
+    // lightweight GTM custom events for clicks
+    function pushGTM(evtName, detail){
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push(Object.assign({event: evtName, page: 'portfolio'}, detail||{}));
+    }
+    document.querySelectorAll('.track').forEach(a=>{
+      a.addEventListener('click', e=>{
+        const name = a.dataset.gtm || 'link_click';
+        const label = a.dataset.label || a.textContent.trim();
+        pushGTM(name, {label});
+      });
+    });
+  </script>
 </body>
 </html>
